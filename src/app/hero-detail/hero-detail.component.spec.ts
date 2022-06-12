@@ -10,7 +10,7 @@ describe('HeroDetailComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ HeroDetailComponent ]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(HeroDetailComponent);
     component = fixture.componentInstance;
